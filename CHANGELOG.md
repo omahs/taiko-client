@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.20.0](https://github.com/taikoxyz/taiko-client/compare/v0.19.0...v0.20.0) (2024-02-25)
+
+
+### Features
+
+* **all:** use an unified transaction sender implementation ([#560](https://github.com/taikoxyz/taiko-client/issues/560)) ([1bd56c0](https://github.com/taikoxyz/taiko-client/commit/1bd56c0d660842fb499336d011e87d7b30c527b9))
+* **bindings:** update Go contract bindings ([#561](https://github.com/taikoxyz/taiko-client/issues/561)) ([bacedb0](https://github.com/taikoxyz/taiko-client/commit/bacedb0c3dcffd973c61e901529cfba773812e64))
+* **bindings:** update Go contract bindings ([#570](https://github.com/taikoxyz/taiko-client/issues/570)) ([e70b7a0](https://github.com/taikoxyz/taiko-client/commit/e70b7a031bc069d527d5518d7928f969fd2c15c1))
+* **pkg:** make `chainID` part of `rpc.EthClient` ([#563](https://github.com/taikoxyz/taiko-client/issues/563)) ([f5d1146](https://github.com/taikoxyz/taiko-client/commit/f5d11460aa1bf740a037aa328dc8a2878b94832a))
+* **prover:** update `SGXProducer` ([#566](https://github.com/taikoxyz/taiko-client/issues/566)) ([93e0660](https://github.com/taikoxyz/taiko-client/commit/93e0660917c37451d95b6d0600041f473d6f391e))
+* **sender:** change to use tick and remove handle reorg function ([#571](https://github.com/taikoxyz/taiko-client/issues/571)) ([27f79c0](https://github.com/taikoxyz/taiko-client/commit/27f79c0500540b147bba180cbfd617474d60f165))
+
+
+### Bug Fixes
+
+* **flag:** add a missing flag configuration for prover ([#567](https://github.com/taikoxyz/taiko-client/issues/567)) ([6d6d9c6](https://github.com/taikoxyz/taiko-client/commit/6d6d9c60e3caf498e1f1f8a9c6d5e8c0020814b9))
+
 ## [0.19.0](https://github.com/taikoxyz/taiko-client/compare/v0.18.0...v0.19.0) (2024-02-19)
 
 
